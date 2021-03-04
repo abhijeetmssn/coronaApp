@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    background-color: #2196F3;
+    text-align: center;
+  }
+  .main-container{
+      align-items: center;
+  }
+
+ .wrapper{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 150px;
+
+}
+  .wrapper >div {
+       background-color: #eee;
+       
+
+  }
+
+  .wrapper > div:nth-child(odd){
+      background-color: #ddd;
+  }
+
+  .list{
+        overflow-y: scroll;
+  }
+
+  .footer{
+      text-align: center;
+      font-weight:bold;
+  }
