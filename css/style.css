@@ -17,12 +17,12 @@
 }}
   .wrapper >div {
        background-color: #eee;
-       background-image: url('back.jpg');
+       background-image: url('../image/back.jpg');
   }
 
   .wrapper > div:nth-child(odd){
       background-color: #ddd;
-      background-image: url('back.jpg');    
+      background-image: url('../image/back.jpg');
   }
 
   .list{
