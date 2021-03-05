@@ -6,28 +6,32 @@
   .main-container{
       align-items: center;
   }
-
+  @media screen and (min-width: 576px){
  .wrapper{
     display: grid;
     grid-template-columns: 40% 60%;
     height: 150px;
+    grid-gap: 10px;
+    
 
-}
+}}
   .wrapper >div {
        background-color: #eee;
-       
-
+       background-image: url('back.jpg');
   }
 
   .wrapper > div:nth-child(odd){
       background-color: #ddd;
+      background-image: url('back.jpg');    
   }
 
   .list{
         overflow-y: scroll;
+        height: 250px;
   }
 
   .footer{
       text-align: center;
       font-weight:bold;
   }
+
