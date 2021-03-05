@@ -59,16 +59,16 @@ const displayIndividualRecord = (id) => {
     
 
     let totalDoses = document.getElementById("total_doses_administered");
-    totalDoses.innerHTML = " Total Doses Administered: " + fetchedCovidData.previous_day_doses_administered;
+    totalDoses.innerHTML = " Total Doses Administered: " + fetchedCovidData.total_doses_administered;
 
     
 
     let vaccinatedDoses = document.getElementById("total_doses_in_fully_vaccinated_individuals");
-    vaccinatedDoses.innerHTML = "Total Doses in Fully Vaccinated Individuals: " + fetchedCovidData.previous_day_doses_administered;
+    vaccinatedDoses.innerHTML = "Total Doses in Fully Vaccinated Individuals: " + fetchedCovidData.total_doses_in_fully_vaccinated_individuals;
    
 
    let fullyDoses = document.getElementById("total_individuals_fully_vaccinated");
-   fullyDoses.innerHTML = "Total Individuals Fully Vaccinated: " + fetchedCovidData.previous_day_doses_administered;
+   fullyDoses.innerHTML = "Total Individuals Fully Vaccinated: " + fetchedCovidData.total_individuals_fully_vaccinated;
     
 }
 
